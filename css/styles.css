@@ -14,7 +14,9 @@ a {
 
 header {
   padding: 154px 0 100px;
-  background-color: #448ee4;
+  background-image: url('../images/nebula.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 
@@ -32,3 +34,5 @@ header {
 section {
   padding: 80px 0;
 }
+
+
