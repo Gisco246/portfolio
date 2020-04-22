@@ -95,12 +95,28 @@
           </div>
           <div class="col-lg-4 col-sm-6 portfolio-item">
             <div class="card h-100">
-              <a href="images/plant.gif" target="_blank"><img class="card-img-top" src="images/plant.png" alt="Us Power plants"></a>
+              <a href="#" data-toggle="modal" data-target="#plants"><img class="card-img-top" src="images/plant.png" alt="Us Power plants"></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Us Power Plants</a>
+                  US Power Plants
                 </h4>
                 <p class="card-text">A Map of US utilities by power source.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Modal: A Map of US utilities by power source. -->
+          <div id="plants" class="modal fade " role="dialog">
+            <div class="modal-dialog modal-xl">
+              <!-- Modal content-->
+              <div class="modal-content bg-light">
+                <div class="modal-body text-dark">
+                  <img src="images/plant.gif" width="100%" class="rounded">
+                  <h3 class="mt-2">Preview</h3>
+                  <p class="card-text">A Map of US utilities by power source.</p>
+                </div>
+                <div class="modal-footer border-secondary border-0">
+                  <button type="button" class="btn btn-default text-light bg-secondary " data-dismiss="modal">Close</button>
+                </div>
               </div>
             </div>
           </div>
