@@ -122,7 +122,7 @@
           </div>
           <div class="col-lg-4 col-sm-6 portfolio-item">
             <div class="card h-100">
-              <a href="images/navigate.gif" target="_blank" ><img class="card-img-top" src="images/Navigate.png" alt="Navigate home pic"></a>
+              <a href="#" data-toggle="modal" data-target="#navigatehome"><img class="card-img-top" src="images/Navigate.png" alt="Navigate home pic"></a>
               <div class="card-body">
                 <h4 class="card-title">
                   <a href="#">Navigate Home</a>
@@ -131,9 +131,25 @@
               </div>
             </div>
           </div>
+             <!-- Modal: A Map of navitaion home -->
+             <div id="navigatehome" class="modal fade " role="dialog">
+              <div class="modal-dialog modal-xl">
+                <!-- Modal content-->
+                <div class="modal-content bg-light">
+                  <div class="modal-body text-dark">
+                    <img src="images/navigate.gif" width="100%" class="rounded">
+                    <h3 class="mt-2">Preview</h3>
+                    <p class="card-text">Map about the navigation route home with some point of interests on the way.</p>
+                  </div>
+                  <div class="modal-footer border-secondary border-0">
+                    <button type="button" class="btn btn-default text-light bg-secondary " data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           <div class="col-lg-4 col-sm-6 portfolio-item">
             <div class="card h-100">
-              <a href="images/pois.gif" target="_blank"><img class="card-img-top" src="images/pois.png" alt="pois images"></a>
+              <a href="#" data-toggle="modal" data-target="#pois"><img class="card-img-top" src="images/pois.png" alt="pois images"></a>
               <div class="card-body">
                 <h4 class="card-title">
                   <a href="#">Places of interest (pois) in New Orleans</a>
@@ -142,6 +158,22 @@
               </div>
             </div>
           </div>
+               <!-- Modal: created to show interesting locations in New Orleans.. -->
+               <div id="pois" class="modal fade " role="dialog">
+                <div class="modal-dialog modal-xl">
+                  <!-- Modal content-->
+                  <div class="modal-content bg-light">
+                    <div class="modal-body text-dark">
+                      <img src="images/pois.gif" width="100%" class="rounded">
+                      <h3 class="mt-2">Preview</h3>
+                      <p class="card-text">A map created to show interesting locations in New Orleans.</p>
+                    </div>
+                    <div class="modal-footer border-secondary border-0">
+                      <button type="button" class="btn btn-default text-light bg-secondary " data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </div>
       </div>
     </section>
